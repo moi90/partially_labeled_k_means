@@ -1,0 +1,2 @@
+include versioneer.py
+include constrained_kmeans/_version.py

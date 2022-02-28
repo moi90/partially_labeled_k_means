@@ -17,10 +17,10 @@ setup(
     # url="https://github.com/moi90/constrained_kmeans",
     packages=["constrained_kmeans"],
     include_package_data=True,
-    install_requires=["sklearn", "scipy", "numpy", "joblib"],
+    install_requires=["scikit-learn", "scipy", "numpy", "joblib"],
     python_requires=">=3.6",
     extras_require={
-        "tests": ["pytest", "pytest-cov", "pytest-benchmark", "scikit-learn"],
+        "tests": ["pytest", "pytest-cov", "pytest-benchmark"],
         "docs": [
             "sphinx >= 1.4",
             "sphinx_rtd_theme",
